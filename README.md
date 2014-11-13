@@ -5,7 +5,7 @@ MMCleaner cleans up theweathernetwork.com page and displays minimal information.
 
 Current features:
 
-  - "Short Term Forecast" and "Long Term Forecast" merged on single page
+  - "Short Term" and "Long Term" forecasts merged on single page
   - specify which city via url (ip:port/cityCode)
   - lines containing "Snow" are bold
 
