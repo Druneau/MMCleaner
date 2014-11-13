@@ -5,7 +5,6 @@ This script runs the application using a development server.
 import bottle
 import os
 import sys
-import cherrypy
 
 # routes contains the HTTP handlers for our server and must be imported.
 import routes
@@ -25,7 +24,7 @@ if __name__ == '__main__':
     STATIC_ROOT = os.path.join(PROJECT_ROOT, 'static').replace('\\', '/')
     HOST = os.environ.get('SERVER_HOST', 'localhost')
     try:
-        PORT = int(os.environ.get('SERVER_PORT', '4444'))
+        PORT = int(os.environ.get('SERVER_PORT', '5555'))
     except ValueError:
         PORT = 5555
 
